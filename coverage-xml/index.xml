@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Mon Nov 14 12:53:29 UTC 2022" phpunit="9.5.24" coverage="9.2.16">
+    <runtime name="PHP" version="8.1.11" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="3.3.0-dev"/>
+  </build>
+  <project source="/Users/ashk/Documents/Projects/Tests/codacy-coverage/src">
+    <tests/>
+    <directory name="/">
+      <totals>
+        <lines total="146" comments="31" code="115" executable="17" executed="0" percent="0.00"/>
+        <methods count="10" tested="0" percent="0.00"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="2" tested="0" percent="0.00"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <directory name="Entity">
+        <totals>
+          <lines total="67" comments="0" code="67" executable="10" executed="0" percent="0.00"/>
+          <methods count="7" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="Project.php" href="Entity/Project.php.xml">
+          <totals>
+            <lines total="67" comments="0" code="67" executable="10" executed="0" percent="0.00"/>
+            <methods count="7" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Repository">
+        <totals>
+          <lines total="67" comments="31" code="36" executable="7" executed="0" percent="0.00"/>
+          <methods count="3" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="ProjectRepository.php" href="Repository/ProjectRepository.php.xml">
+          <totals>
+            <lines total="67" comments="31" code="36" executable="7" executed="0" percent="0.00"/>
+            <methods count="3" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <file name="Kernel.php" href="Kernel.php.xml">
+        <totals>
+          <lines total="12" comments="0" code="12" executable="0" executed="0" percent="0"/>
+          <methods count="0" tested="0" percent="0"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="0" tested="0" percent="0"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>
